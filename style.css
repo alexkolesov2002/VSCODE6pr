@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-blend-mode: color-burn;
+    background-color: #1A1A40;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+
+
+.TopHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 181px;
+    background-color: #1A1A40;
+}
+
+#IconPhone {
+    color: white;
+    margin-top: 20%;
+    margin-right: 20px;
+    font-size: 2.4vh;
+    text-decoration: none;
+}
+
+nav {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15%;
+    margin-top: 5%;
+
+}
+
+nav a {
+    margin-left: 85px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    transition: 0.3s;
+
+}
+
+nav a:hover {
+    color: #FA58B6;
+    transition: 0.3s;
+}
+
+.Russia {
+    margin-top: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.LogoAndNav {
+    display: flex;
+    flex-direction: column;
+    margin-left: -7%;
+    margin-top: 0.7%;
+}
+
+#Logo {
+    margin-left: 40%;
+    width: 108px;
+    height: 108px;
+}
+
+.BetweenDivHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+
+}
+
+.TxtTopHeader {
+
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.MailAndPhone {
+    display: flex;
+
+
+}
+
+
+
+
+.BtnHeaderLow {
+
+
+    width: 297px;
+    height: 48px;
+    border: none;
+    margin-top: 98%;
+    border-radius: 68px;
+    background-color: #FA58B6;
+
+}
+
+.BtnHeaderLow a {
+    text-decoration: none;
+    border: none;
+    background-color: #FA58B6;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.BtnHeaderTop a {
+    text-decoration: none;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+}
+
+.TopHeaderWhite {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    width: 100%;
+
+    background-color: white;
+}
+
+.Krugi {
+
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    margin-top: 20px;
+}
+
+#Krug1 {
+    border-radius: 100%;
+    border: 2px solid white;
+    background-color: white;
+    width: 16px;
+    height: 16px;
+}
+
+#Krug2,
+#Krug3,
+#Krug4 {
+    border-radius: 100%;
+    border: 2px solid white;
+
+    width: 16px;
+    height: 16px;
+}
+
+#HED {
+    background-image: url(img/Back1.png);
+    width: 100%;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.3ms;
+}
+
+
+#CenterHeaderText {
+
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BigPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 800px;
+}
+
+.BlockStrelka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 60px;
+    text-decoration: none;
+
+}
+
+#H1CenterHeaderText {
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 64px;
+    color: #7A0BC0;
+
+}
+
+
+#ArrowP {
+    font-size: 100%;
+    color: white;
+    transform: scaleX(-1);
+}
+
+#ArrowN {
+    font-size: 100%;
+    color: white;
+}
+
+
+#PCenterHeaderText {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: -10%;
+
+    color: white;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    background-color: #1A1A40;
+
+}
+
+.Zyhla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -3%;
+
+}
+
+.Zyhla a {
+    margin-left: 85px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.Zyhla a:hover {
+    color: #FA58B6;
+    transition: 0.3s;
+}
+
+@media (min-width: 100px) and (max-width: 1100px) {
+    .TopHeader {
+        height: 128px;
+    }
+    nav a {
+        margin-left: 30px;
+        font-size: 10px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: 700;
+        transition: 0.3s;
+    
+    }
+
+}
