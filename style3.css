@@ -243,9 +243,10 @@ select {
     height: 46px;
     border-radius: 10px;
     border: none;
+    opacity: 90%;
     text-decoration: none;
     color: #2E2F22;
-    font-family: 'Open Sans';
+    font-family: 'Roboto';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -253,7 +254,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     text-indent: 20px;
-    background: url(img/Polygon\ 1.png) 90% / 8% no-repeat #D7D1C9;
+    background: url(img/Polygon\ 1.png) 90% / 8% no-repeat white;
 
 }
 
