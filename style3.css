@@ -135,10 +135,6 @@ background-image: url(img/Back4.png);
 
 }
 
-
-
-
-
 #PCenterHeaderText {
 
 
@@ -146,16 +142,16 @@ background-image: url(img/Back4.png);
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
-    margin-top: -10%;
+    margin-top: -0.1%;
 
     color: white;
 }
 
 .write_me {
-    margin-top: 20px;
-    margin-left: 222px;
+
+    margin-top: -5%;
     display: flex;
-    margin-right: 222px;
+  
     flex-direction: column;
     align-items: center;
     width: 996px;
@@ -173,7 +169,8 @@ background-image: url(img/Back4.png);
 }
 
 .row_write1 {
-    margin-top: 53px;
+   margin-top: 30px;
+   margin-bottom: 30px;
     width: 837px;
     display: flex;
     justify-content: space-between;
@@ -202,27 +199,6 @@ background-image: url(img/Back4.png);
    
 }
 
-.row_write2 {
-    width: 837px;
-    height: 333px;
-}
-
-.row_write2 p {
-    font-family: 'Spectral SC', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
-    color: #2E2F22;
-}
-
-.row_write2 input {
-    width: 837px;
-    height: 293px;
-    opacity: 05%;
-    border-radius: 10px;
-    border: black 1px solid;
-}
 
 .form_write_sub {
     width: 224px;
@@ -239,6 +215,8 @@ background-image: url(img/Back4.png);
     border: black 1px solid;
 }
 select {
+    margin-top: 20%;
+    
     width: 203px;
     height: 46px;
     border-radius: 10px;
@@ -255,6 +233,26 @@ select {
     appearance: none;
     text-indent: 20px;
     background: url(img/Polygon\ 1.png) 90% / 8% no-repeat white;
+
+}
+ ::placeholder  {
+    font-family: 'Roboto';
+    color: black;
+    text-indent: 10px;
+}
+.form_write_sub
+{
+    width: 297px;
+    height: 48px;
+    border: none;
+  
+    border-radius: 68px;
+    background-color: #FA58B6;
+    border-radius: 68px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
 
 }
 
