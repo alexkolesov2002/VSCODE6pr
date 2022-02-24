@@ -394,21 +394,22 @@ footer {
         background-color: #FA58B6;
     
     }
+    
     .timer__items {
         display: flex;
         font-size: 48px;
         font-family: 'Roboto';
         color: white;
-      }
-      .timer__item {
+        }
+        .timer__item {
         position: relative;
         min-width: 60px;
         margin-left: 10px;
         margin-right: 10px;
         padding-bottom: 15px;
         text-align: center;
-      }
-      .timer__item::before {
+        }
+        .timer__item::before {
         content: attr(data-title);
         display: block;
         position: absolute;
@@ -416,12 +417,34 @@ footer {
         bottom: 0;
         transform: translateX(-50%);
         font-size: 14px;
-      }
-      .timer__item:not(:last-child)::after {
+        }
+        .timer__item:not(:last-child)::after {
         content: ':';
         position: absolute;
         right: -15px;
-      }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     .BtnHeaderLow a {
         text-decoration: none;
         border: none;
