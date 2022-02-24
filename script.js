@@ -7,6 +7,25 @@ var krug1 = document.getElementById("Krug1");
 var krug2 = document.getElementById("Krug2");
 var krug3 = document.getElementById("Krug3");
 var krug4 = document.getElementById("Krug4");
+
+krug1.addEventListener("click", () => {
+    i = 1;
+    getRan();
+});
+krug2.addEventListener("click", () => {
+    i = 2;
+    getRan();
+});
+krug3.addEventListener("click", () => {
+    i = 3;
+    getRan();
+});
+krug4.addEventListener("click", () => {
+    i = 4;
+    getRan();
+});
+
+
 var i = 1;
 
 buttonR.addEventListener("click", () => {
@@ -34,8 +53,8 @@ function getRan() {
             bi.style.backgroundSize = "100%";
             bi.style.transition = "0.9ms";
             bi.style.backgroundRepeat = "no-repeat";
-            krug1.style.background = "#FFFFFF";
-            krug2.style.backgroundColor = "none";
+            krug1.style.backgroundColor = "#FFFFFF";
+            krug2.style.background = "none";
             krug3.style.background = "none";
             krug4.style.background = "none";
 
