@@ -126,7 +126,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 71%;
+    height: 89%;
 }
 .Metall{
     display: flex;
@@ -134,7 +134,7 @@ nav a:hover {
     justify-content: space-between;
     
     height:70%;
-    margin-top: 55%;
+    margin-top: 45%;
 }
 .Grup{
     margin-right: 40%;
@@ -191,7 +191,7 @@ color: #7A0BC0;
     justify-content: center;
     width: 100%;
     background-image: url(img/Back2.png);
-    height: 1780px;
+    height: 1493px;
     background-repeat: no-repeat;
     background-size: cover;
 }

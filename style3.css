@@ -239,6 +239,7 @@ select {
     font-family: 'Roboto';
     color: black;
     text-indent: 10px;
+    opacity: 80%;
 }
 .form_write_sub
 {
