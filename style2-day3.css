@@ -263,17 +263,414 @@ footer {
 
 @media (min-width: 100px) and (max-width: 1100px) {
     .TopHeader {
+        display: flex;
+        justify-content: center;
+        width: 100%;
         height: 128px;
+        background-color: #1A1A40;
     }
+
+    #IconPhone {
+        color: white;
+        margin-top: 26%;
+        margin-right: 20px;
+        font-size: 1.8vh;
+        text-decoration: none;
+    }
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -15%;
+        margin-top: 5%;
+
+    }
+
     nav a {
-        margin-left: 30px;
+        margin-left: 85px;
+        font-size: 10px;
+    }
+
+
+
+    .Russia {
+        margin-top: 50%;
+        width: 37px;
+        height: 22px;
+    }
+
+    .LogoAndNav {
+        display: flex;
+        flex-direction: column;
+        margin-left: -7%;
+        margin-top: 0.7%;
+    }
+
+    #Logo {
+        margin-left: 43%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .BetweenDivHeader {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+
+    }
+
+    .TxtTopHeader {
+
+        color: white;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .MailAndPhone {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+
+
+    }
+
+
+
+
+    .BtnHeaderLow {
+
+        width: 240px;
+        height: 40px;
+        border: none;
+        margin-top: 98%;
+        border-radius: 68px;
+        background-color: #FA58B6;
+
+    }
+
+    .timer__items {
+        display: flex;
+        font-size: 20px;
+        font-family: 'Roboto';
+        color: white;
+    }
+
+    .timer__item {
+        position: relative;
+        min-width: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .timer__item::before {
+        content: attr(data-title);
+        display: block;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+
+    .timer__item:not(:last-child)::after {
+        content: ':';
+        position: absolute;
+        right: -15px;
+    }
+
+
+
+
+
+
+
+    .BtnHeaderLow a {
+        text-decoration: none;
+        border: none;
+        background-color: #FA58B6;
+        color: white;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .BtnHeaderTop a {
+        text-decoration: none;
+        border: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100px;
+    }
+
+    .TopHeaderWhite {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        justify-content: center;
+        width: 100%;
+
+        background-color: white;
+    }
+
+    .Krugi {
+        visibility: hidden;
+        display: flex;
+        justify-content: space-between;
+        width: 47%;
+        margin-top: 20px;
+    }
+
+    #Krug1 {
+        border-radius: 100%;
+        border: 2px solid white;
+        background-color: white;
+        width: 16px;
+        height: 16px;
+    }
+
+    #Krug2,
+    #Krug3,
+    #Krug4 {
+        border-radius: 100%;
+        border: 2px solid white;
+
+        width: 16px;
+        height: 16px;
+    }
+
+    #HED {
+        background-image: url(img/BackMainMB.png);
+        width: 100%;
+
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transition: 0.3ms;
+    }
+
+
+    #CenterHeaderText {
+
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .BigPhoto {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+        height: 660px;
+    }
+
+    .BlockStrelka {
+        visibility: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 60px;
+        text-decoration: none;
+
+    }
+
+    #H1CenterHeaderText {
+
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: bold;
+        font-size: 48px;
+        color: #7A0BC0;
+
+    }
+
+
+    #ArrowP {
+        font-size: 100%;
+        color: white;
+        transform: scaleX(-1);
+    }
+
+    #ArrowN {
+        font-size: 100%;
+        color: white;
+    }
+
+
+    #PCenterHeaderText {
+
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        margin-top: -10%;
+
+        color: white;
+    }
+
+
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 33px;
+        background-color: #1A1A40;
+
+    }
+
+    .Zyhla {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -3%;
+
+    }
+
+    .Zyhla a {
+        margin-left: 50px;
         font-size: 10px;
         color: white;
         text-decoration: none;
         font-family: 'Roboto';
         font-weight: 700;
         transition: 0.3s;
-    
     }
 
+    .Zyhla a:first-child {
+        margin-left: 10px;
+    }
+
+    .Zyhla a:hover {
+        color: #FA58B6;
+        transition: 0.3s;
+    }
+
+    .Nadpisi p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .Nadpisi h1 {
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: bold;
+        font-size: 48px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #7A0BC0;
+
+    }
+
+    .Krug {
+        width: 22px;
+        height: 22px;
+        border-radius: 100%;
+        background-color: white;
+
+    }
+
+    .Poloska {
+        background-color: rgba(223, 194, 194, 0.55);
+        height: 150px;
+        width: 7px;
+        margin-left: 8px;
+    }
+
+    .Gruppi {
+        margin-top: 30%;
+        display: flex;
+        height: 100%;
+
+    }
+
+    .Ramm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 71%;
+    }
+
+    .Metall {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 70%;
+        margin-top: 22%;
+    }
+
+    .Grup {
+        margin-right: 40%;
+        margin-top: -27%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .Grup2 {
+        margin-left: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #Metall {
+        margin-top: -39%;
+
+    }
+
+    .Grup p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .MainDiv {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-image: url(img/Back3MB.png);
+        height: 1220px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #NameGroup {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 15%;
+        margin-top: 10%;
+        color: #7A0BC0;
+    }
+   
 }
